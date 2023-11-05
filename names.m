@@ -16,7 +16,7 @@ yy = spline(t, y, tt);
 
 % Plot settings
 figure(1)
-% plot(xx, yy, 'k', 'LineWidth', 1.5) % plot spline
+plot(xx, yy, 'k', 'LineWidth', 1.5) % plot spline
 hold on
 plot(x, y, 'bo', 'MarkerFaceColor','b') % plot data points
 axis([-0.2 6 -0.2 4.5])
@@ -24,6 +24,6 @@ grid on
 title('Spline Interpolation of Cursive Letter D')
 xlabel('x')
 ylabel('y')
-p = 0.5;
-comet(xx, yy, p)
+% p = 0.5;
+% comet(xx, yy, p)
 grid on
