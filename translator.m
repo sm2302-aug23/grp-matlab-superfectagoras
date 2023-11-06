@@ -21,8 +21,7 @@ y = [1.75 1.50 0.50 0.00 0.25 0.75 1.75 0.75 0.00];
 %% Shifting right
 % Shift the coordinates to the right 
 % so the first point connects to the last point of the last letter
-% Don't worry about determining how much to change for now
-% Just test with random numbers
+% You will be using endpoint.m to get the value for the last point
 % Change x_coords only, y_coords remain unchanged here
 
 % IT'S NOT FINAL IF WE ARE PLANNING ON USING THIS AS A SEPARATE FUNCTION
