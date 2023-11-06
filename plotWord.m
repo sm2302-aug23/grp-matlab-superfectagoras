@@ -26,7 +26,7 @@ for i = 1:length(breakdown)
         else
             [x y] = letters_database(string_line(j));
             x = x + end_point;       % Shifting letters to the right
-            y = y + 6 * (lines - 1); % Shifting letters down based on line no.
+            y = y + 8 * (lines - 1); % Shifting letters down based on line no.
 
             n = length(x);
             t = 0:n-1; % Parametric coordinate t
