@@ -37,9 +37,9 @@
 
 ## Bonus Tasks: Aesthetic Bonuses
 - Changing the line colour and thickness
-- Animating the plot
-- Advanced Line Breaking System
 - The file is [ThickColour.m](ThickColour.m) for reference
+- Advanced Line Breaking System
+- Animating the plot
 
 ## Contributors
 
