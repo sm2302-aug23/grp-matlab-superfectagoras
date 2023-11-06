@@ -22,23 +22,24 @@
 - Purpose: To store the coordinates of each letters
 - Methodology: Dictionary
 - Error Handling
-- The file is [letters_database.m](letters_database.m) to refer
+- The file is [letters_database.m](letters_database.m) for reference
 
 ## Task 3: Making words/sentences
 - Translating the coordinates to the right
 - Breaking lines by shifting coordinates to the top/bottom
 - Adjusting the axes to clearly show the plot
-- The code can be viewed in [translator.m](translator.m) to refer
+- The code can be viewed in [translator.m](translator.m) for reference
 
 ## Task 4: Creating plotWord.m
 - Breaking strings into chunks of words
 - Breaking chunks of words into characters
-- The file is [plotWord.m](plotWord.m) to refer
+- The file is [plotWord.m](plotWord.m) for reference
 
 ## Bonus Tasks: Aesthetic Bonuses
 - Changing the line colour and thickness
 - Animating the plot
 - Advanced Line Breaking System
+- The file is [ThickColour.m](ThickColour.m) for reference
 
 ## Contributors
 
