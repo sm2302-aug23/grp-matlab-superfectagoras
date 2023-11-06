@@ -1,7 +1,7 @@
 # Spline Your Name
  ![superfectagoras banner](https://github.com/sm2302-aug23/grp-matlab-superfectagoras/blob/main/SM.png)
 
-## Step 1: Readying the letters
+## Task  1: Readying the letters
 ### Step 1.1: Observations on cursive fonts and handwriting
 - Letter Size
 - Letter Shape
@@ -18,21 +18,37 @@
 - Consistent starting and ending points
 - Handling sharp corners
 
-## Step 3: Creating letter_database.m
+## Task 2: Creating letter_database.m
 - Purpose: To store the coordinates of each letters
 - Methodology: Dictionary
 - Error Handling
 
-## Step 4: Making words/sentences
+## Task 3: Making words/sentences
 - Translating the coordinates to the right
 - Breaking lines by shifting coordinates to the top/bottom
 - Adjusting the axes to clearly show the plot
 
-## Step 5: Creating plotWord.m
+## Task 4: Creating plotWord.m
 - Breaking strings into chunks of words
 - Breaking chunks of words into characters
 
-## Bonus Steps: Aesthetic Bonuses
+## Bonus Tasks: Aesthetic Bonuses
 - Changing the line colour and thickness
 - Animating the plot
 - Advanced Line Breaking System
+
+## Contributors
+
+- **Task 1:** All :computer: :sparkles: :octocat: :wilted_flower:
+  :books: :pill: :partly_sunny: :milky_way:
+
+- **Task 2:** All :computer: :sparkles: :octocat: :wilted_flower:
+  :books: :pill: :partly_sunny: :milky_way:
+  
+- **Task 3:** Waqi :computer: :sparkles:
+
+- **Task 4:** Waqi :computer: :sparkles:
+
+- **Bonus Tasks:**
+
+- **README:** Waqi & Ros & Fizah :computer: :sparkles: :octocat: :wilted_flower: :partly_sunny: :milky_way:
