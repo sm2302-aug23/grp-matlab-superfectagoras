@@ -33,7 +33,7 @@
 ## Task 4: Creating plotWord.m
 - Breaking strings into chunks of words
 - Breaking chunks of words into characters
-- The code can be viewed in [plotWord.m](plotWord.m) to refer
+- The file is [plotWord.m](plotWord.m) to refer
 
 ## Bonus Tasks: Aesthetic Bonuses
 - Changing the line colour and thickness
