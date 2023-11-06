@@ -1,6 +1,6 @@
 # Spline Your Name
 By SuperfectAgoras
-<insert banner here?>
+ ![superfectagoras banner](https://github.com/sm2302-aug23/grp-matlab-superfectagoras/blob/main/SM.png)
 
 ## Step 1: Readying the letters
 ### Step 1.1: Observations on cursive fonts and handwriting
