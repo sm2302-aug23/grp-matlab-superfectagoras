@@ -19,6 +19,13 @@ Here's how some of the plots we made looks like;
 - Start and end of curves
 - Sharp turns
 - Back-and-forths
+The start point of each curve plot of letters looks a bit sharp while the
+end points are more curvy that it would go beyond the point.
+
+To make the letter point sharper and less curved for sharp turns, we add
+additional points. Depending on each additional point we plot, it will
+creates a loop effect. The more closely two points are spaced(1 for the
+initial point and 1 for the additional point), the sharper the curves seem.
 
 ### 1.3: Applying the observations
 We standardized the dimensions of lowercase letters to 2by2 and uppercase
@@ -29,7 +36,8 @@ We determine the x and y coordinates for each point by envisioning the
 anticipated appearance of the plot. Some of us even utilized graph paper to
 visually identify the points for plotting each letter more conveniently.
 
-To enhance the sharp corners, an additional point was incorporated to create a loop effect, given for the inherent curve nature of spline.
+To enhance the sharp corners, an additional point was incorporated to
+create a loop effect, given for the inherent curve nature of spline.
 
 For lowercase letters, mostly begin at x=0 and end at x=2, while uppercase
 letters end at x=4. This ensures proper alignment of letters on a line when
