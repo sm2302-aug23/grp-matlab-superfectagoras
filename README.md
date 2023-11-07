@@ -24,7 +24,9 @@ additional points. Depending on each additional point we plot, it will
 creates a loop effect. The more closely two points are spaced(1 for the
 initial point and 1 for the additional point), the sharper the curves seem.
 
-For back-and-forths, imagine drawing on-going lines between points and when we connect them, the spline shifts back and forth between these points. It's like a zigzag motion as the spline links them together.
+For back-and-forths, imagine drawing on-going lines between points and when
+we connect them, the spline shifts back and forth between these points.
+It's like a zigzag motion as the spline links them together.
 
 ### 1.3: Applying the observations
 We standardized the dimensions of lowercase letters to 2by2 and uppercase
