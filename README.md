@@ -16,9 +16,6 @@ Here's how some of the plots we made looks like;
 (add photos of the letters we made)
 
 ### 1.2: Observation on splines
-- Start and end of curves
-- Sharp turns
-- Back-and-forths
 The start point of each curve plot of letters looks a bit sharp while the
 end points are more curvy that it would go beyond the point.
 
@@ -26,6 +23,8 @@ To make the letter point sharper and less curved for sharp turns, we add
 additional points. Depending on each additional point we plot, it will
 creates a loop effect. The more closely two points are spaced(1 for the
 initial point and 1 for the additional point), the sharper the curves seem.
+
+For back-and-forths, imagine drawing on-going lines between points and when we connect them, the spline shifts back and forth between these points. It's like a zigzag motion as the spline links them together.
 
 ### 1.3: Applying the observations
 We standardized the dimensions of lowercase letters to 2by2 and uppercase
@@ -48,6 +47,9 @@ letters.
 - Purpose: To store the coordinates of each letters
 - Methodology: Dictionary
 - Error Handling
+
+We store our x and y coordinates of each letters we made in this database.
+Both for uppercase and lowercase letters.
 - The file is [letters_database.m](letters_database.m) for reference
 
 ## Task 3: Making words/sentences
@@ -81,4 +83,5 @@ letters.
 
 - **Bonus Tasks:**
 
-- **README:** Waqi & Ros & Fizah :computer: :sparkles: :octocat: :wilted_flower: :partly_sunny: :milky_way:
+- **README:** All :computer: :sparkles: :octocat: :wilted_flower:
+  :books: :pill: :partly_sunny: :milky_way:
