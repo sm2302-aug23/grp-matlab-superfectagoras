@@ -3,9 +3,10 @@
 
 ## Task  1: Readying the letters
 ### 1.1: Observations on cursive fonts and handwriting
-During brainstorming, we thought of using the Pacifico Font. But after several more discussion, we decided to use Waqi's sister cursive font as reference to the fonts that we plot using spline. Below is how the cursive font looks like for both uppercase and lowercase letters;
+During brainstorming, we thought of using the Pacifico Font. But after several more discussion, we decided to use most of Waqi's sister cursive font and few from Pacifico Fonts as reference to the fonts that we plot using spline. Below is how the cursive font looks like for both uppercase and lowercase letters;
 ![lowercase reference](https://github.com/sm2302-aug23/grp-matlab-superfectagoras/blob/main/lowercase%20reference.jpeg)
 ![uppercase reference](https://github.com/sm2302-aug23/grp-matlab-superfectagoras/blob/main/uppercase%20reference.jpeg)
+![PacificoFont](https://github.com/sm2302-aug23/grp-matlab-superfectagoras/blob/main/PacificoFont.jpg)
 
 Here's how some of the plots we made looks like;
 
