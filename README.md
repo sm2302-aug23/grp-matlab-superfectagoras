@@ -1,4 +1,4 @@
-# Spline Your Name
+# Spline Your Name (by SuperfectAgoras)
  ![superfectagoras banner](https://github.com/sm2302-aug23/grp-matlab-superfectagoras/blob/main/SM.png)
 
 ## Task  1: Readying the letters
@@ -46,7 +46,7 @@ constructing words and consistent starting and ending points for most
 letters.
 
 ## Task 2: Creating letters_database.m
-To store the coordinates of the letters, we have decided to use a dictionary! This dictionary is put inside the letters_database.m function.
+To store the coordinates of the letters, we have decided to use a dictionary! This dictionary is put inside the `letters_database.m` function.
 The input is the letter that we want to find the coordinates for.
 The output will be both the x and y coordinates of the letter.
 - The file is [letters_database.m](letters_database.m) for reference
@@ -60,22 +60,38 @@ if we use an array instead, the letters will be joined together, which will not 
 Our values will be the x and y coordinates for the letter. To store both of them inside an index, we have to put the pair inside another cell. 
 The first array in the inner cell will be the x coordinates, the second array in the inner cell will be the y coordinates.
 
-## Task 3: Making words/sentences
-- Translating the coordinates to the right
-- Breaking lines by shifting coordinates to the top/bottom
-- Adjusting the axes to clearly show the plot
-- The code can be viewed in [translator.m](translator.m) for reference
-
-## Task 4: Creating plotWord.m
+## Task 3: Creating plotWord.m
 - Breaking strings into chunks of words
-- Breaking chunks of words into characters
+  - We split strings using the split() function with the delimiter as '//'
+  - This is so that we can make more aesthetically pleasing structure in our plot sentences.
+  - We also run this through strip() to remove any whitespaces at the start and end of each chunk of lines
 - The file is [plotWord.m](plotWord.m) for reference
 
-## Bonus Tasks: Aesthetic Bonuses
-- Changing the line colour and thickness
-- The file is [ThickColour.m](ThickColour.m) for reference
-- Advanced Line Breaking System
-- Animating the plot
+## Task 4: Making words/sentences (continuation of Task 3)
+- The structure of the loops
+  - First, we iterate through the chunks of lines we got from Task 3
+  - And then for each chunk of line, we iterate through the characters
+    
+- Translating the coordinates to the right
+  - We find the max value inside the current letter's x coordinates first
+  - Then we compare with `endpoint` variable. If max value is bigger than `endpoint`, then replace `endpoint` with max value.
+  - This is used for shifting all coordinates of the next letter by the value of endpoint.
+  - This will ensure that the very first point of the next letter will start at the very end of the current letter.
+  - If the letter happens to be space `(' ')`, we will add 2 to `endpoint` to create space without checking letters_database().
+    
+- Breaking lines by shifting coordinates to the top/bottom
+  - First, we count the number of lines that we got from Task 3, store it into `lines`
+  - Then, we use `y = y + 8 * (lines - 1)` so the first chunk of lines will be at the very top.
+  - We reduce `lines` by one every time we iterate through the first loop.
+    
+- Adjusting the axes to clearly show the plot
+  - We check the max and min of x and y coordinates of the whole plot
+  - Compare them with `max_x`, `max_y`, `min_x`, `min_y` variables.
+    - If max value of x surpasses `max_x`, replace `max_x` with that max value
+    - If max value of y surpasses `max_y`, replace `max_y` with that max value
+    - If min value of x surpasses `min_x`, replace `min_x` with that min value
+    - If min value of y surpasses `min_y`, replace `min_y` with that min value
+   - Use these variables for axis() to adjust the plot axes accordingly. 
 
 ## Contributors
 
