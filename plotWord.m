@@ -63,7 +63,7 @@ for i = 1:length(breakdown)
             figure(1)
             plot(xx, yy, 'k', 'LineWidth', 1.5) % plot spline
             hold on
-            plot(x, y, 'bo', 'MarkerFaceColor','b') % plot data points
+            % plot(x, y, 'bo', 'MarkerFaceColor','b') % plot data points
             axis([x_min x_max y_min y_max])
             % axis([-0.2 6 -0.2 4.5])
             grid on
