@@ -17,11 +17,15 @@ Here's how some of the plots we made looks like;
 - Back-and-forths
 
 ### 1.3: Applying the observations
-- Standardizing the size
-- Selection of points
 - Consistent starting and ending points
-- Handling sharp corners
-To enhance the sharp corners, an additional point was incorporated to create a loop effect, given for the inherent curve nature of spline. For lowercase letters, mostly begin at x=0 and end at x=2, while uppercase letters end at x=4. This ensures proper alignment of letters on a line when constructing words.
+
+We standardized the dimensions of lowercase letters to 2by2 and uppercase letters to 4by4. This was done to facilitate clear distinction between letter sizes.
+
+We determine the x and y coordinates for each point by envisioning the anticipated appearance of the plot. Some of us even utilized graph paper to visually identify the points for plotting each letter more conveniently.
+
+To enhance the sharp corners, an additional point was incorporated to create a loop effect, given for the inherent curve nature of spline.
+
+For lowercase letters, mostly begin at x=0 and end at x=2, while uppercase letters end at x=4. This ensures proper alignment of letters on a line when constructing words and consistent starting and ending points for most letters.
 
 ## Task 2: Creating letter_database.m
 - Purpose: To store the coordinates of each letters
